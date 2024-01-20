@@ -1,0 +1,76 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  min-width: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+*::after {
+  box-sizing: border-box;
+}
+#body {
+  margin: auto;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.contact,
+.pro-contact {
+  margin-top: -25px;
+  font-size: 25px;
+}
+a {
+  color: rgb(72, 156, 60);
+}
+.summary {
+  padding: 0 50px;
+}
+.summary h4 {
+  margin-bottom: -7px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.summary p {
+  margin-top: -3px;
+  margin-bottom: 250px;
+}
+.profile-summary {
+  font-size: 20px;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+#skills,
+#education,
+#profession,
+#intrest,
+#reference {
+  font-weight: 400;
+}
+.skills,
+.intrest {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.school {
+  font-weight: 100;
+}
+.pro-contact{
+  display: flex;
+}
+.pro-contact .contact-link:not(:last-child){
+  border-right: 2px solid black;
+}
+.contact-link{
+  padding: 0 5px;
+}
